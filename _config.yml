@@ -1,0 +1,56 @@
+title: Sleek
+author: GitHub User
+description: >
+  Write an awesome description for your new site here. You can edit this line in
+  _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+baseurl: ''
+url: ''
+social:
+  name: Your Name
+  links:
+    - 'https://twitter.com/BenBalter'
+    - 'https://www.facebook.com/ben.balter'
+    - 'https://www.linkedin.com/in/BenBalter'
+    - 'https://plus.google.com/+BenBalter'
+    - 'https://github.com/benbalter'
+    - 'https://keybase.io/benbalter'
+navigation:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Contact
+    link: /contact
+tagline: |
+  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+hero_img: posts/sleek_lg.jpg
+email: your-email@domain.com
+twitter_username: jan_czizikow
+github_username: janczizikow
+instagram_username: shanlongjj
+disqus:
+  shortname: janczizikow
+service_worker: true
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+include:
+  - _pages
+permalink: '/:title/'
+compress_html:
+  clippings: all
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
